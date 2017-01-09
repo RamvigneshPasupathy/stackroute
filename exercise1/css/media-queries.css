@@ -1,0 +1,97 @@
+  /* Smartphones (portrait and landscape) ----------- */
+  @media only screen and (min-width: 320px) and (max-width: 480px){
+      .body{
+          color: lightgreen;
+          width: 90%;
+          font-size: 95%;
+      }
+      .mainHeader img{
+        width: 100%;
+      }
+      .mainHeader nav{
+        height: 160px;
+      }
+
+      .mainHeader nav ul{
+        padding-left: : 0;
+      }
+
+      .mainHeader nav ul li{
+        /*Where we decide nav menu layout*/
+         width:50%;
+         text-align: center;
+      }
+
+      .mainHeader nav a:link, .mainHeader nav a:visited{
+        height: 20px;
+        display:block;
+      }
+
+
+
+      .content{
+        width: 100%;
+        float: left;
+        padding-top: 2%;
+      }
+
+
+      .topContent{
+        background-color: #FFF;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        padding: 3% 5%;
+        margin-top: 2px;
+      }
+
+      .post-info{
+        display: none;
+      }
+
+      .bottomContent{
+        background-color: #FFF;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        padding: 3% 5%;
+        margin-top: 2px;
+      }
+
+      .top-sidebar{
+        width: 95%;
+        margin-top: 2%;
+        padding: 2% 1%;
+      }
+      .middle-sidebar{
+        width: 95%;
+        margin-top: 2%;
+        padding: 2% 1%;
+      }
+      .bottom-sidebar{
+        width: 95%;
+        margin-top: 2%;
+        padding: 2% 1%;
+      }
+
+  }
+
+
+
+  /* max-device-width will target the
+  device's actual full screen size/resolution whereas max-width will target
+  the viewport (current browser window)*/
+
+
+  /* iPads (portrait and landscape) ----------- */
+  @media only screen
+  and (min-device-width : 768px)
+  and (max-device-width : 1024px) {
+  /* Styles */
+  }
+
+  /* Desktops and laptops ----------- */
+  @media only screen
+  and (min-width : 1224px) {
+  /* Styles */
+  }
